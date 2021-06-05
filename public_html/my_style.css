@@ -1,0 +1,109 @@
+body, html {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-image: url("../media/aula.webp");
+	background-size: cover;
+}
+
+.container-fluid {
+	height: 100%;
+	padding: 0px!important;			
+}
+
+.menu-item:hover {
+	background-color: #5A0000!important;
+}
+
+.menu-item {
+	padding: 1rem;
+	background-color: #800000;
+	color:white;
+	border-right: 1px solid #660000;
+}
+
+@media only screen and (max-height: 755px) and (max-width: 900px){
+	.menu-item {
+		padding: 0.5rem;
+		border-bottom: 1px solid #730000;
+	}
+	.main-panel {
+		margin-top: 0rem!important;
+		border-radius: 0px!important;
+	}
+
+	td a img {
+		width: 50%!important;
+		height: auto!important;
+	}
+}
+
+.main-panel {
+	margin-top: 3rem;
+	background-color: rgb(242, 242, 242, 0.4);
+	padding: 1.5rem;
+	border-radius: 25px;
+}
+
+.alert {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none!important;
+}
+
+.padding-0{
+	padding-right:0;
+	padding-left:0;
+}
+
+.my-button {
+	padding-top: 0.5rem!important;
+	padding-bottom: 0.5rem!important;
+	padding: 1rem;
+	color: white;
+	background-color: #800000;
+	border-color: #990000;
+}
+
+.my-button:hover {
+	color: white;
+	background-color: #660000;
+	border-color: #4d0000;
+}
+
+/* Utilizzato per nascondere il logo promozionale del sito di webhosting 000webhost */
+a[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"] {
+	display:none;
+}
+
+
+.my-thead {
+	color: #fff;
+	background-color: #800000;
+	border-color: #730000;
+}
+
+th {
+	font-weight:500;
+}
+
+.table th, td {
+   text-align: center;   
+}
+
+td, th {
+	vertical-align: middle!important;
+}
+
+td a img {
+	width: 1.125rem;
+	height: 1.125rem;
+}
+
+.form-group {
+	margin-top: 2rem;
+}
