@@ -7,9 +7,9 @@
 
 */
 $servername = "localhost";
-$db_name = "id16360004_sdppia";
-$username = "id16360004_ersa";
-$db_password = "]AC6XdY_btD[^<Fm";
+$db_name = "id1636---_sdppia";
+$username = "id163---rsa";
+$db_password = "]A-----D[^<Fm";
 
 // Variabile contente informazioni relative agli errori in fase di apertura della connessione
 $connection_error = "";
